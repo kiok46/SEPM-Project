@@ -1,0 +1,62 @@
+<Author_Signup>:
+	orientation: "vertical"
+	canvas.before:
+	    Color:
+	        rgba: 1,.498,.196,1
+	    Rectangle:
+	        size: self.size
+	        pos: self.pos
+	Status_bar:
+		size_hint: 1,.15
+
+		canvas.before:
+	        Color:
+	            rgba: 1,1,1,1
+	        Rectangle:
+	            size: self.size
+	            pos: self.pos
+	    BoxLayout:
+		    Button:
+		    	text: "<"
+		    	font_size: 24
+		    	size_hint: .1,1
+		    	background_color: 1,.3,.5,.2
+		    	on_release: root.parent.parent.current = "home"
+		    Label:
+
+	BoxLayout:
+		orientation: "vertical"
+		padding: 30
+		spacing: 30
+		Label:
+		BoxLayout:
+			Label:
+				text: "Name"
+			TextInput:
+		BoxLayout:
+			Label:
+				text: "Password"
+			TextInput:
+		Label:
+
+	BoxLayout:
+		size_hint: 1,.2
+		Label:
+		Button:
+			
+			background_color: 1,.3,.1,.2
+			text: "Create account!"
+			on_release: root.parent.parent.current="guest_and_author"
+		Label:
+
+
+	Status_bar:
+		size_hint: 1,.15
+		canvas.before:
+	        Color:
+	            rgba: 0.99,.9,.9,1
+	        Rectangle:
+	            size: self.size
+	            pos: self.pos
+	    Label:
+	    	text: "Dissabled section"

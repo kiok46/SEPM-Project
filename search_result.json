@@ -1,0 +1,67 @@
+{
+    "area": [
+        {
+            "title": "People\u2019s Lifestyle and Energy Consumption", 
+            "authorname": "Didit Novianto", 
+            "address": "/home/kuldeep/Desktop/trydjango18/src/newsletter/Database/CCE/cce1", 
+            "abstract": "This paper focuses on the residential housing performance and peoples lifestyle in terms of energy use. The research has to be continuously study in order to change the Asian peoples life-style moving toward the low energy consumption", 
+            "area": "authors_research_paper"
+        }, 
+        {
+            "title": "Finite Element Analysis", 
+            "authorname": "Chunhua Sun", 
+            "address": "/home/kuldeep/Desktop/trydjango18/src/newsletter/Database/CCE/cce2", 
+            "abstract": "To realize the goal of harvesting energy from pavement vibration on a large scale, a new type of piezoelectric harvesting units as the energy transducer has been proposed. The piezoelectric harvesting units are paved 40 mm below the asphalt, which is the same as thickness of the top layer of typical asphalt pavement in China.", 
+            "area": "authors_research_paper"
+        }, 
+        {
+            "title": "Overvoltage Condition Assessment of a Microgrid", 
+            "authorname": "Ricardo Leon Vasquez-Arnez 1 , Dorel Soares Ramos 2 , Tesoro Elena Del Carpio Huayllas 2", 
+            "address": "/home/kuldeep/Desktop/trydjango18/src/newsletter/Database/CCE/cce3", 
+            "abstract": "This paper presents the results of the simulations and their respective analyses corresponding to the power frequency overvoltages resulting from various fault types occurring inside a microgrid. During the islanded mode of operation, the analysed microgrid can be simultaneously fed by a diesel generator.", 
+            "area": "authors_research_paper"
+        }, 
+        {
+            "title": "Method for facilitating transactions of life sciences opportunities", 
+            "authorname": "Srinivas Akkaraju", 
+            "address": "/home/kuldeep/Desktop/trydjango18/src/newsletter/Database/CCE/cce4", 
+            "abstract": "Answers to predetermined life sciences opportunity questions are firstly recieved from a first party.A first sum is subsequently calculated of all the responses.", 
+            "area": "authors_patent"
+        }, 
+        {
+            "title": "SOA for Life Sciences Instruments", 
+            "authorname": "Jai Kishan", 
+            "address": "/home/kuldeep/Desktop/trydjango18/src/newsletter/Database/CCE/cce5", 
+            "abstract": "The present techniques of using SOA are obsolete.I will do better by writing codes in JSon. Syste object architecture for life sciences instuments.", 
+            "area": "authors_patent"
+        }, 
+        {
+            "title": "Interactive Radiological Sciences", 
+            "authorname": "Kuldeep Grewal", 
+            "address": "/home/kuldeep/Desktop/trydjango18/src/newsletter/Database/CCE/cce6", 
+            "abstract": "Interactive Radiological Sciences the computer system simulates radiologial procedures for medical patients.", 
+            "area": "authors_patent"
+        }, 
+        {
+            "title": "Wireless Stethoscope", 
+            "authorname": "Ishita Paliwal", 
+            "address": "/home/kuldeep/Desktop/trydjango18/src/newsletter/Database/CCE/cce7", 
+            "abstract": "Heart sound stethoscope is primary stage to access diseases. In this proposal, design of an electronic stethoscope with the functions of wireless transmission is discussed.", 
+            "area": "authors_project"
+        }, 
+        {
+            "title": "Data Visualization With Cognition", 
+            "authorname": "Kriti Gandhi", 
+            "address": "/home/kuldeep/Desktop/trydjango18/src/newsletter/Database/CCE/cce8", 
+            "abstract": "Today, world is advancing with rapid development so is the amount of data generated. Hence we are unable to extract information efficiently from this huge data . So there is a need of a method to extract information from raw data.", 
+            "area": "authors_project"
+        }, 
+        {
+            "title": "Conforming least-squares h\u2212p spectral element", 
+            "authorname": "Giorgio Giovanni", 
+            "address": "/home/kuldeep/Desktop/trydjango18/src/newsletter/Database/CCE/cce9", 
+            "abstract": "Elliptic partial differential equations arise in many fields of science and engineering such as steady state distribution of heat, fluid dynamics, structural/mechanical engineering, aerospace engineering, medical science and seismology etc.", 
+            "area": "authors_project"
+        }
+    ]
+}

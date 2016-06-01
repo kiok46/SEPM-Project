@@ -1,0 +1,60 @@
+<Download_Pdf>:
+	orientation: "vertical"
+	pdf_button: pdf_button
+	title: title
+	abstract: abstract
+	canvas.before:
+	    Color:
+	        rgba: 1,.498,.196,1
+	    Rectangle:
+	        size: self.size
+	        pos: self.pos
+	Status_bar:
+		size_hint: 1,.15
+
+		canvas.before:
+	        Color:
+	            rgba: 1,1,1,1
+	        Rectangle:
+	            size: self.size
+	            pos: self.pos
+	    BoxLayout:
+		    Button:
+		    	text: "<"
+		    	font_size: 24
+		    	size_hint: .1,1
+		    	background_color: 1,.3,.5,.2
+		    	on_release: root.parent.parent.current = "guest_and_author"
+		    Label:
+    BoxLayout:
+    	padding: 10
+		spacing: 20
+    	orientation: "vertical"
+		RstDocument:
+			text: str(root.title)
+			id: title
+			bold: True
+			size_hint: 1,.2
+
+		RstDocument:
+			text: str(root.abstract)
+			id: abstract
+			#size_hint: 1,.5
+
+		BoxLayout:
+			size_hint: 1,.2
+			Label:
+			Button:
+				id: pdf_button
+				background_color: 1,.3,.1,.2
+				text: "Download PDF"
+				on_release: root.download_pdf_method()
+			Label:
+	Status_bar:
+		size_hint: 1,.15
+		canvas.before:
+	        Color:
+	            rgba: 1,1,1,1
+	        Rectangle:
+	            size: self.size
+	            pos: self.pos

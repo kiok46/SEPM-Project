@@ -1,0 +1,99 @@
+<Card_Widget>:
+    size_hint_y: None
+    size_x: 150
+    
+    swipe_rectangle: self.x, self.y , self.width, self.height
+    swipe_timeout: 1000000
+    swipe_distance: 1
+    spacing:5
+
+    BoxLayout:
+        orientation: "vertical"
+        BoxLayout:
+            Button:
+                text: root.title
+                background_color: 0.398,.310,.562,1
+                on_release: root.open_download_page()
+            Button:
+                size_hint: .4,1
+                text: root.authorname
+                background_color: 0.398,.310,.562,1
+                on_release: root.open_download_page()
+        RstDocument:
+            text: root.abstract     
+
+<Card_Container>:
+    layout_container: layout_container
+    id: card
+    size_hint: (None,None)
+    #size: (675, 520)
+    #pos_hint: {'x':.065,'y':.065}
+    do_scroll_x: False
+    bar_width:'5dp'
+
+    GridLayout:
+        
+        size_hint_y: None
+        cols: 1
+        padding: 20
+        spacing: 20
+        id: layout_container
+        #add card_widget here
+
+<Guest_and_Author>:
+    cc: cc
+    id: g
+    searched_text: searched_text
+    department: department
+    orientation: "vertical"
+    canvas.before:
+        Color:
+            rgba: 1,.498,.196,1
+        Rectangle:
+            size: self.size
+            pos: self.pos
+    Action_bar:
+        background_color: 1,1,1,1
+        canvas.before:
+            Color:
+                rgba: 1,.1,1,1
+            Rectangle:
+                size: self.size
+                pos: self.size
+        size_hint: 1,.15
+        id: actionbar
+
+    BoxLayout:
+        size_hint: 1,.1
+        Label:
+            size_hint: .2,1
+            text: "Search"
+        TextInput:
+            id: searched_text
+            hint_text: "Type here"
+        Button:
+            size_hint: .15,1
+            text: "Go"
+            on_release: root.search()
+
+    BoxLayout:
+        size_hint: 1,.1
+        Label:
+            text: "Choose department"
+            valign: "top"
+            size_hint: 1,.2
+        Spinner:
+            id: department
+            text: "CSE"
+            values: {"CSE","CCE","ECE","MME"}
+    Card_Container:
+        id: cc
+        size_hint: 1,1
+    Status_bar:
+        size_hint: 1,.15
+        canvas.before:
+            Color:
+                rgba: 1,1,1,1
+            Rectangle:
+                size: self.size
+                pos: self.pos
